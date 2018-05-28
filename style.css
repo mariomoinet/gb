@@ -19,6 +19,7 @@ body {
 }
 
 .my-jumbotron {
+  z-index: 1000;
 		position: absolute;
 		margin-top: 250px;
     background-color:rgba(249, 249, 249, 0);
