@@ -24,6 +24,9 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 
 ga('create', 'UA-119956944-1', 'auto');
 ga('send', 'pageview');
+
+ga('send', 'envent', 'a', 'button_marin', 'marin')
+ga('send', 'envent', 'a', 'button_entreprise', 'entreprise')
 </script>
 <!-- End Google Analytics -->
 
@@ -43,8 +46,8 @@ ga('send', 'pageview');
       <br><br>
       <div class="text-center">
         <div class="col-md-offset-6">
-          <a class="btn btn-lg btn-primary btn_homepage" href="sailor_home.html" role="button">I'm a sailor</a>
-          <a class="btn btn-lg btn-primary btn_homepage" href="company_home.html" role="button">I'm a company</a>
+          <a class="btn btn-lg btn-primary btn_homepage" href="https://mariomoinet.github.io/gb/sailor_home.html" id='marin' download onClick="ga('send', 'envent', 'Button', 'Download', '')" role="button">I'm a sailor</a>
+          <a class="btn btn-lg btn-primary btn_homepage" href="https://mariomoinet.github.io/gb/company_home.html" id='entreprise' download onClick="ga('send', 'envent', 'Button', 'Download', '')" role="button">I'm a company</a>
         </div>
       </div>
     </div>
