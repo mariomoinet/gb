@@ -101,3 +101,8 @@ font-size: 20px;
   height: 900px;
   background-image: url(image/back_annonce.jpg);
 }
+.formulaire{
+  padding-top: 150px;
+  padding-left: 300px;
+  color: white;
+}
