@@ -98,11 +98,22 @@ font-size: 20px;
 }
 
 .contenu {
-  height: 900px;
   background-image: url(image/back_annonce.jpg);
 }
 .formulaire{
   padding-top: 150px;
   padding-left: 300px;
   color: white;
+}
+.date {
+  display: flex;
+}
+#datepicker_depart{
+  flex: 2;
+}
+#vide{
+color: rgba(255, 255, 255, 0);
+}
+#datepicker_arrive{
+  flex: 2;
 }
